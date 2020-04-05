@@ -4,7 +4,7 @@ import time
 import sys
 import torch
 from model import vgg16
-from utils import repear_faces
+from utils import detect_faces
 
 
 
@@ -35,7 +35,7 @@ while True:
         if cv2.waitKey(1) == ord('q'):
             break
     else :
-        faces = repear_faces(model, frame, 10, 200, 5, 5)
+        faces = detect_faces(model, frame, 10, 200, 5, 5)
         for (x, y),size in faces:
             roi_gray = gray[y: y + size, x: x + size]
             cv2.rectangle(frame, (x, y), (x + size, y + size), (200, 0, 0), thickness = 3)
