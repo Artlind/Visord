@@ -12,7 +12,7 @@ def has_intersection(carr1, carr2):
         return True
     return False
 
-def repear_faces(model, img, min_size, max_size, step_square, step_size):
+def detect_faces(model, img, min_size, max_size, step_square, step_size):
     """
     Repère les visages  d'une image en utilisant un modèle pytorch 
     et l'algorithme cascade
