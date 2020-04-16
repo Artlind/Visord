@@ -16,7 +16,7 @@ Pour lancer un train : télécharger les datasets FER et BSDS300
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/
 
-Les fusionner dans un csv enregistré au nom de "dataset.csv" contenant deux colonnes "train" et "eval" contenant toutes les images de train et d'eval respectivement.
+Les fusionner dans un csv enregistré au nom de "dataset.csv" contenant deux colonnes "train" et "eval" contenant toutes les images de train et d'eval respectivement avec leur label (1 si image de FER 0 si image d BSDS).
 Enfin, sur google collab, effectuer 
 
 `run train.py`
