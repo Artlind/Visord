@@ -3,12 +3,12 @@
 Arthur Lindoulsi <br>
 Terence Le Huu Phuong <br>
 
-##Application de reconnaissance faciale:
+## Application de reconnaissance faciale:
 Executer la commande 
 `python faces.py`
 Le paramètre "mode" peut être changé si l'on veut utiliser un réseau entraîné plutôt que openCV
 
-##Deep learning:
+## Deep learning:
 Le module model contient le modèle VGG initialisé de pytorch.
 Le module train contient les fonctions relatives à l'entraînement.
 Le module utils contient les fonctions relatives à l'algorithme cascade.
